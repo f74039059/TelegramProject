@@ -1,9 +1,5 @@
 # TOC Project 2017
 
-Template Code for TOC Project 2017
-
-A telegram bot based on a finite state machine
-
 ## Setup
 
 ### Prerequisite
@@ -39,7 +35,7 @@ You should set `WEBHOOK_URL` (in app.py) to `your-https-URL/hook`.
 #### Run the sever
 
 ```sh
-py app.py
+python3 app.py
 ```
 
 ## Finite State Machine
