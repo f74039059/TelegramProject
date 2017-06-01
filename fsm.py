@@ -89,9 +89,7 @@ class TocMachine(GraphMachine):
     
     def on_enter_state1(self, update):
         update.message.reply_text("state1")
-        self.sendMessage(parse_mode='https://www.google.com.tw/')
     
-        
     
     def on_exit_state1(self, update):
         print('Leaving state1')
